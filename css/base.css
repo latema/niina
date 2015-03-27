@@ -1,0 +1,149 @@
+/* custom CSS */
+/* Custom container */
+
+/* sidebar */
+html {overflow-y: scroll;}
+
+#name {
+    margin-top: 1px;
+    float: left;
+}
+
+#sidemenu {
+    position: fixed;
+}
+
+.fixed-sidebar {
+    margin-left: 215px;
+}
+
+#leftmenu {
+    float: left;
+    padding-top: 40px;
+}
+
+#language-select {
+    margin-left: 13px;
+    font-size: 85%;
+    color: #808080;
+    text-decoration: none;
+    float: left;
+}
+
+ul.sidemenu {
+    float: left;
+    list-style: none outside;
+    width: 140px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+/* here the menu ACTUALLY goes to top position */
+@media (max-width: 651px) {
+
+    /* span2 --> 620 */
+    .span2 {
+        width: 620px;
+    }
+
+    p .now {
+        display: inline;
+    }
+
+    #language-select {
+        margin-left: 0px;
+    }
+
+    #sidemenu {
+        position: static;
+    }
+    .fixed-sidebar {
+        /*width:auto;*/
+        float: left;
+        white-space: nowrap;
+        margin-left: 0px;
+    }
+    #leftmenu {
+        float: left;
+        margin-left: 20px;
+        padding-top: 0px;
+    }
+    ul.sidemenu {
+        -webkit-margin-before: 0;
+        float: left;
+        list-style: none outside;
+        width: 110px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+}
+
+.now {
+    color:green;
+    margin:10px;
+}
+
+#language-select > a {
+    color: #808080;
+}
+
+#language-select > a:hover {
+    text-decoration: none;
+    color: #303030;
+}
+
+ul.sidemenu > li > a {
+    text-decoration: none;
+    border: none;
+    color: black;
+    width: 130px;
+    padding-left: 11px;
+    display: block;
+}
+
+ul.sidemenu > li
+{
+    /*display: inline;*/
+    /* for IE5 and IE6 */
+    list-style: none;
+    padding-bottom: 0.6em;
+}
+
+ul.sidemenu > li > a:hover,
+ul.sidemenu > li > a.active {
+    text-decoration: none;
+    color: darkgreen;
+    text-transform: uppercase;
+    width: 130px;
+    border-left: 3px solid darkgreen;
+    padding-left: 8px;
+}
+
+.painting {
+    margin-top: 75px;
+}
+
+p.italic { font-style:italic }
+
+a#frontpage {
+    color: #000000;
+}
+
+a#frontpage:hover {
+    outline:0;
+    text-decoration:none;
+}
+a#frontpage > h1 {
+}
+
+.feedback {
+    margin-top: 6px;
+}
+
+#huovitopic {
+    margin-top:0px;
+}
+
+.text-content {
+    margin-top: 132px;
+}

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>| NIINA HUOVINEN</title>
+    <link href='http://fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
+    <!--<link href="css/base.css" rel="stylesheet" media="screen">-->
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+        body {
+            padding-top: 45px;
+            padding-bottom: 40px;
+        }
+        .container-narrow {
+            margin: 0 auto;
+            max-width: 880px;
+        }
+    </style>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-29644289-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+</head>
+<body>
+<!--<div class="container-fluid">-->
+
+<div class="container-narrow">
+    <div class="row">
+            <div class="span2" id="sidemenu">
+            </div>
+
+            <div class="span10">
+                <div id = "content" class="fixed-sidebar">
+                </div>
+            </div>
+    </div>
+</div>
+
+<script>console.log("antti");</script>
+<script data-main="js/Niina.js" src="js/require-min.js"></script>
+<!--<script data-main="js/dist/Niina.js" src="js/require-min.js"></script>-->
+<script>
+    console.log("mitvit");
+require.config({
+    paths : {
+        backbone : 'lib/backbone',
+        underscore : 'lib/underscore',
+        jquery : 'lib/jquery',
+        marionette : 'lib/backbone.marionette',
+        text : 'lib/text'
+    },
+    shim : {
+        jquery : {
+            exports : 'jQuery'
+        },
+        underscore : {
+            exports : '_'
+        },
+        backbone : {
+            deps : ['jquery', 'underscore'],
+            exports : 'Backbone'
+        },
+        marionette : {
+            deps : ['jquery', 'underscore', 'backbone'],
+            exports : 'Marionette'
+        }
+    },
+    config : {
+        //Set the config for the i18n
+        //module ID
+        i18n: {
+            locale: localStorage.getItem('locale') || 'fi'
+        }
+    }
+});
+    console.log("mitvit2");
+</script>
+
+</body>
+</html>
