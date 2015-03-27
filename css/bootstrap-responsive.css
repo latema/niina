@@ -26,6 +26,12 @@ html {overflow-y: scroll;}
     padding-top: 40px;
 }
 
+#now-wrapper {
+    margin-top: 50px;
+    height: 60px;
+    float: left;
+}
+
 #language-select {
     margin-left: 13px;
     font-size: 85%;
@@ -108,6 +114,12 @@ ul.sidemenu {
         margin-left: 0px;
         padding-left: 0px;
     }
+    #now-wrapper {
+        margin-top: 0px;
+        height: 60px;
+        float: left;
+    }
+
     .text-content {
         margin-top: 35px;
     }

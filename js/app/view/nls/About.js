@@ -1,12 +1,10 @@
 define({
     "root": {
-        "about_pt1": "Niina Huovinen (born 1984) is a Tampere based visual artist. Her paintings have an ironic " +
-            "approach to the media imagery.",
-        "about_pt2": "“I read magazines, browse the web, watch the news and movies. I know that Danny was an avid boxer " +
-            "as a youngster and I’ve noticed how Kimi Räikkönen’s shades have a cool mirror effect. When I was a " +
-            "kid I had nightmares after watching James Bond.",
-        "about_pt3": "Life involves a lot of useless knowledge; even some of our memories come from the media. " +
-            "In my paintings I’m dealing with my personal memories that originate from the lives of others.”"
+        "about_pt1": "My works study my own relationship with media imagery. Sometimes it is hard to accept and understand the daily information. I have noticed that I often mix the documentary information with the fictional narrative.",
+        "about_pt2": "When I document my own media memories I want to show how we all live in this same self-repetitive media environment.",
+        "cv_pt1": "You can download my CV",
+        "cv_pt2": "here.",
+        "cv_path": "\"./img/Niina_Huovinen_english.pdf\""
     },
     "fi": true
 });

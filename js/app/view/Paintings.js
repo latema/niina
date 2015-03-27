@@ -8,5 +8,3 @@ define( ["marionette", "text!../../../tpl/PaintingsView.html", "i18n!./nls/Paint
     });
     return PaintingsView;
 });
-
-

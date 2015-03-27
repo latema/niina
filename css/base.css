@@ -6,6 +6,7 @@ html {overflow-y: scroll;}
 
 #name {
     margin-top: 1px;
+    margin-left: -12px;
     float: left;
 }
 
@@ -20,6 +21,12 @@ html {overflow-y: scroll;}
 #leftmenu {
     float: left;
     padding-top: 40px;
+}
+
+#now-wrapper {
+    margin-top: 50px;
+    height: 60px;
+    float: left;
 }
 
 #language-select {
@@ -76,6 +83,11 @@ ul.sidemenu {
         margin-left: 0px;
         padding-left: 0px;
     }
+    #now-wrapper {
+        margin-top: 0px;
+        height: 60px;
+        float: left;
+    }
 }
 
 .now {
@@ -117,6 +129,10 @@ ul.sidemenu > li > a.active {
     width: 130px;
     border-left: 3px solid darkgreen;
     padding-left: 8px;
+}
+
+.painting:first-child {
+    margin-top: 150px;
 }
 
 .painting {

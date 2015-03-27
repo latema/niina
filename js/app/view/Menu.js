@@ -4,7 +4,7 @@ define( ["jquery", "underscore", "marionette", "text!../../../tpl/MenuView.html"
         events: {
             "click #about": "showAbout",
             "click #contact": "showContact",
-            "click #cv": "showCV",
+            //"click #cv": "showCV",
             "click #coming": "showComing",
             "click #mainpage": "showPaintings",
             "click #finnish": "setFinnish",
@@ -16,7 +16,6 @@ define( ["jquery", "underscore", "marionette", "text!../../../tpl/MenuView.html"
             Niina.vent.trigger("set:fin");
         },
         setEnglish: function(){
-            console.log("setEnglish");
             var Niina = require('Niina');
             Niina.vent.trigger("set:eng");
         },
@@ -35,12 +34,12 @@ define( ["jquery", "underscore", "marionette", "text!../../../tpl/MenuView.html"
             this.$('#contact').addClass('active');
             Niina.vent.trigger("show:contact");
         },
-        showCV: function(){
-            var Niina = require('Niina');
-            this.removeClass();
-            this.$('#cv').addClass('active');
-            Niina.vent.trigger("show:CV");
-        },
+        //showCV: function(){
+        //    var Niina = require('Niina');
+        //    this.removeClass();
+        //    this.$('#cv').addClass('active');
+        //    Niina.vent.trigger("show:CV");
+        //},
         showComing: function(){
             var Niina = require('Niina');
             this.removeClass();
@@ -48,7 +47,6 @@ define( ["jquery", "underscore", "marionette", "text!../../../tpl/MenuView.html"
             Niina.vent.trigger("show:upcoming");
         },
         showPaintings: function(){
-            console.log("PAINTINGS");
             var Niina = require('Niina');
             this.removeClass();
             this.$('#mainpage').addClass('active');
