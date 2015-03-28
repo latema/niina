@@ -1,9 +1,9 @@
 <div id="template-menu">
     <div id= "huovitopic">
-        <a href="#paintings" id="frontpage">
+        <a href="#frontpage" id="frontpage">
             <div style="max-width:210px;">
                 <!---->
-                <img id= "name" title="Niina Huovinen" alt="Niina Huovinen" src="img/NAME.jpg" width="210" height="72"/>
+                <img id= "name" title="Niina Huovinen" alt="Niina Huovinen" src="img/NIMI.jpg" width="210" height="77"/>
 
             </div>
         </a>
@@ -15,11 +15,39 @@
 
     <div id= "leftmenu">
         <ul class="sidemenu">
-            <li><a href="#paintings" id="mainpage" class="active"><%= Paintings %></a></li>
-            <li><a href="#about" id="about"><%= About %></a></li>
-            <li><a href="#contact" id="contact"><%= Contact %></a></li>
-            <li><a href="#cv" id="cv"><%= CV %></a></li>
+            <li><a href="#paintings" id="mainpage" class="menuitem active"><%= Paintings %></a></li>
+            <li><a href="#2014" class="menuitem 2014 yearpage"><%= 2014 %></a></li>
+            <li><a href="#2013" class="menuitem 2013 yearpage"><%= 2013 %></a></li>
+            <li><a href="#2012" class="menuitem 2012 yearpage"><%= 2012 %></a></li>
+            <li><a href="#about" id="about" class="menuitem"><%= About %></a></li>
+            <li><a href="#contact" id="contact" class="menuitem"><%= Contact %></a></li>
+            <!--<li><a href="#cv" id="cv" class="menuitem"><%= CV %></a></li>-->
         </ul>
+    </div>
+
+    <div id="now-wrapper">
+        <div class="pull-left"></div>
+        <!--
+                <p class="now"> <b><%= nowText %></b> <br /><br />
+
+                    <b><%= date %> <br /></b>
+                    <%= nowDesc1 %> <br />
+                    <%= nowDesc2 %> <br />
+                    <%= nowDesc3 %> <br />
+                    <br />
+                    <b><%= date2 %> <br /></b>
+                    <%= nowDesc4 %> <br />
+                    <%= nowDesc5 %> <br />
+                    <%= nowDesc6 %> <br />
+                    <br />
+
+                    <b><%= date3 %> <br /></b>
+                    <%= nowDesc7 %> <br />
+                    <%= nowDesc8 %> <br />
+                    <%= nowDesc9 %>
+
+                </p>
+        -->
     </div>
 
 </div>

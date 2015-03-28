@@ -62,7 +62,6 @@ define( ["marionette",
     });
 
     Niina.vent.bind('show:frontpage', function(){
-        console.log("show FFF");
         var menuView = new MenuView();
         Niina.menu.show( menuView );
         var paintingsView = new PaintingsView();

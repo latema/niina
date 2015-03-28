@@ -1,4 +1,4 @@
-({
+define({
     "name1": "Ihmepelastus",
     "desc1": "2013, öljy levylle, 60 cm x 50 cm",
     "name2": "Hugo Boss -mies",
