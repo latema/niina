@@ -3,7 +3,7 @@ define({
     "Contact": "Yhteystiedot",
     "CV": "CV",
     "Upcoming": "Tulossa",
-    "Paintings": "Teokset",
+    "Paintings": "Maalaukset",
     // Nyt!
     "nowText": "N Y T !",
     "date": "13.6. – 25.8.2013",

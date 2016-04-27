@@ -1,9 +1,5 @@
 define({
     "root": {
-        "name1": "Miracle Rescue",
-        "desc1": "2013, oil on board, 60 cm x 50 cm",
-        "name2": "Hugo Boss Man",
-        "desc2": "2013, oil on board, 60 cm x 50 cm",
         "name3": "James Bond Island",
         "desc3": "2013, oil and spray on canvas, 120 cm x 133 cm",
         "name4": "Hawaii",
@@ -12,8 +8,6 @@ define({
         "desc5": "2013, oil and spray on canvas, 90 cm x 104 cm",
         "name6": "Matti Jumps in to The Fog",
         "desc6": "2013, oil on board, 40 cm x 50 cm",
-        "name7": "Kimi Has Cool Shades",
-        "desc7": "2013, oil on board, 37 cm x 50 cm",
         "name8": "Young Danny",
         "desc8": "2013, oil on board, 50 cm x 60 cm",
         "name9": "Killer Shark",
@@ -40,18 +34,12 @@ define({
         "desc19": "2012, oil on board, 42 cm x 29 cm",
         "name20": "80 km/h",
         "desc20": " 2012, oil and spray on board, 43 cm x 53 cm",
-        "name21": "At The House",
-        "desc21": "2012, oil and spray on board, 110 cm x 140 cm",
         "name22": "The Sky",
         "desc22": "2012, acrylic on canvas, 156 cm x 165 cm",
         "name23": "The Soldier",
         "desc23": "2013, oil and spray on board, 110 cm x 121 cm",
-        "name24": "The Scandal",
-        "desc24": "2013, oil and spray on board, 40 cm x 50 cm",
         "name25": "The Winner",
         "desc25": "2013, oil on board, 50 cm x 64 cm",
-        "name26": "I Do",
-        "desc26": "2013, oil on board, 60 cm x 60 cm",
         "name27": "In Broad Daylight",
         "desc27": "2013, oil on board, 50 cm x 64 cm",
         "name28": "Road Trip",
@@ -69,13 +57,7 @@ define({
         "name34": "Victory Parade",
         "desc34": "2014, oil on canvas, 40 cm x 50 cm",
         "name35": "Tank",
-        "desc35": "2014, oil on canvas, 110 cm x 140 cm",
-        "name36": "Military - Inspired",
-        "desc36": "2014, oil on canvas, 50 cm x 40 cm",
-        "name37": "Private Island",
-        "desc37": "2014, oil on canvas, 40 cm x 50 cm",
-        "name38": "The Top of The Food Chain",
-        "desc38": "2014, oil on canvas, 50 cm x 70 cm"
+        "desc35": "2014, oil on canvas, 110 cm x 140 cm"
     },
     "fi": true
 });
