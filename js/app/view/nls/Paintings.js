@@ -57,7 +57,15 @@ define({
         "name34": "Victory Parade",
         "desc34": "2014, oil on canvas, 40 cm x 50 cm",
         "name35": "Tank",
-        "desc35": "2014, oil on canvas, 110 cm x 140 cm"
+        "desc35": "2014, oil on canvas, 110 cm x 140 cm",
+        "name36": "At Night",
+        "desc36": "2015, oil on canvas, 110 cm x 140 cm",
+        "name37": "The Stabber",
+        "desc37": "2015, oil on canvas, 41 cm x 31 cm",
+        "name38": "The Little Black Riding Hood",
+        "desc38": "2015, oil on canvas, 40 cm x 34 cm",
+        "name39": "A Borrowed Donkey",
+        "desc39": "2015, oil on canvas, 40 cm x 34 cm"
     },
     "fi": true
 });

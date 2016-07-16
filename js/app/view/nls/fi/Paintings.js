@@ -56,5 +56,13 @@ define({
     "name34": "Voitonjuhlat",
     "desc34": "2014, öljy kankaalle, 40 cm x 50 cm",
     "name35": "Tankki",
-    "desc35": "2014, öljy kankaalle, 110 cm x 140 cm"
+    "desc35": "2014, öljy kankaalle, 110 cm x 140 cm",
+    "name36": "Yöllä",
+    "desc36": "2015, öljy kankaalle, 110 cm x 140 cm",
+    "name37": "Puukottaja",
+    "desc37": "2015, öljy kankaalle, 41 cm x 31 cm",
+    "name38": "Mustahilkka",
+    "desc38": "2015, öljy kankaalle, 40 cm x 34 cm",
+    "name39": "Lainattu aasi",
+    "desc39": "2015, öljy kankaalle, 40 cm x 34 cm"
 });
